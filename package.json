@@ -1,0 +1,32 @@
+{
+  "name": "Minokiti11_Portfolio",
+  "version": "1.0.0",
+  "description": "MyPortfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minokiti11/Minokiti11.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Minokiti11/Minokiti11.github.io/issues"
+  },
+  "homepage": "https://github.com/Minokiti11/Minokiti11.github.io#readme",
+  "dependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
