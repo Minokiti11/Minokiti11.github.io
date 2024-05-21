@@ -10,6 +10,14 @@
             background-color: #2d2d2d;
             color: #ffffff;
         }
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
         .nav-link, .navbar-brand {
             color: #ffffff !important;
         }
@@ -20,7 +28,6 @@
             width: 100%;
         }
         .project-link {
-            color: #ffffff;
             text-decoration: none;
         }
         .project-link:hover {
@@ -39,6 +46,39 @@
         }
         .main-projects .project {
             margin-top: 20px;
+        }
+
+        .card {
+            background-color: #2d2d2d;
+            border-color: white;
+        }
+
+        .card-title .card-text {
+            color: white;
+        }
+
+        @media (min-width: 300px) {
+            .card-title {
+                font-size: calc(3.3vw);
+            }
+        }
+
+        @media (min-width: 650px) {
+            .card-title {
+                font-size: 1.25rem;
+            }
+        }
+
+        @media (min-width: 300px) {
+            .card-text {
+                font-size: calc(2.5vw);
+            }
+        }
+
+        @media (min-width: 650px) {
+            .card-text {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
@@ -72,15 +112,29 @@
     <div class="main-projects">
         <h2 class="text-left" style="margin-top: 100px;">Main Projects</h2>
         <div class="row">
-            <div class="col-md-6 project">
+            <div class="col-md-12 col-lg-6 project">
+                <h3>TacticaNote</h3>
                 <a href="https://tactica-chat.com" class="project-link">
-                    <h3>TacticaNote</h3>
-                    <!-- <img src="path/to/playbox/logo.png" alt="Playbox"> -->
+                    <div class="card text-bg-dark mb-3">
+                        <div class="row g-0">
+                            <div class="col-sm-6 col-md-8 col-lg-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">TacticaNote</h5>
+                                    <p class="card-text">育成年代の言語化をサポートするサッカーノート</p>
+                                    <p class="card-text"><small class="text-body-secondary">https://tactica-chat.com</small></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-4">
+                                <img src="tacticanote-logo.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                    </div>
                 </a>
+
                 <p>TacticaNote provides us advises for better soccer note.</p>
     
             </div>
-            <div class="col-md-6 project">
+            <div class="col-md-12 col-lg-6 project">
                 <h3>SportsLabKit</h3>
                 <p>SportsLabKit description goes here.</p>
                 <!-- Add SportsLabKit image and link here -->
@@ -88,7 +142,8 @@
         </div>
     </div>
 </div>
-
+<script>
+</script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
