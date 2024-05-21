@@ -1,0 +1,25 @@
+/* Bootstrap の CSS をリセットするための記述 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 追加のスタイル */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
