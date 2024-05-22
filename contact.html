@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minori Sugimura</title>
+    <title>Contact</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -101,43 +101,40 @@
     </div>
 </nav>
 <div class="container">
-    <div class="main-content text-center">
-        <h1>Minori Sugimura <span role="img" aria-label="Japan Flag">🇯🇵</span></h1>
-        <img src="icon.png" alt="Minori Sugimura" class="img-fluid rounded-circle mb-4" style="max-width: 150px;">
-        <p>Hi, I'm student at National Institute of Technology, Yonago College. <span role="img" aria-label="graduate cap">🎓</span></p>
-        <a href="path/to/your/resume.pdf" class="resume-button mb-2">Resume</a>
-        <a href="https://www.linkedin.com/in/minorex16/" class="linkedin-button mb-2">LinkedIn</a>
+    <div class="main-content text-left">
+        <h2>Contact Me</h2>
+        <form action="/submit_contact" method="post">
+            <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" class="form-control col-lg-6" id="first_name" name="first_name" style="background-color: #2d2d2d; color: #ffffff;">
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" class="form-control col-lg-6" id="last_name" name="last_name" style="background-color: #2d2d2d; color: #ffffff;">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control col-lg-6" id="subject" name="subject" style="background-color: #2d2d2d; color: #ffffff;">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea style="background-color: #2d2d2d; color: #ffffff;" class="form-control col-lg-6" id="message" name="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
     
+    
     <div class="main-projects">
-        <h2 class="text-left" style="margin-top: 100px;">Main Projects</h2>
+        <h2 class="text-left" style="margin-top: 100px;">Get in Touch</h2>
         <div class="row">
             <div class="col-md-12 col-lg-6 project">
-                <h3>TacticaNote</h3>
-                <a href="https://tactica-chat.com" class="project-link">
-                    <div class="card text-bg-dark mb-3">
-                        <div class="row g-0">
-                            <div class="col-sm-6 col-md-8 col-lg-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">TacticaNote</h5>
-                                    <p class="card-text">育成年代の言語化をサポートするサッカーノート</p>
-                                    <p class="card-text"><small class="text-body-secondary">https://tactica-chat.com</small></p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-4 col-lg-4">
-                                <img src="tacticanote-logo.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <p>TacticaNote provides us advises for better soccer note.</p>
-    
+                <h3>Email</h3>
+                <p>minorex15.connect@gmail.com</p>
             </div>
             <div class="col-md-12 col-lg-6 project">
-                <h3>SportsLabKit</h3>
-                <p>SportsLabKit description goes here.</p>
-                <!-- Add SportsLabKit image and link here -->
+                <h3>Phone</h3>
+                <p>080-4900-0796</p>
             </div>
         </div>
     </div>
